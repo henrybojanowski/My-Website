@@ -1,2 +1,2 @@
 # My-Website
-My own website with academic information
+My website with academic information about myself created with HTML and CSS
