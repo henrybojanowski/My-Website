@@ -1,9 +1,11 @@
-<? php
+<?php
 	
 	function sayHello()
 	{
-		echo "Hello World" . "<br>"
+		echo "Hello World" . "<br>";
 	}
+
+	
 
 ?>
 

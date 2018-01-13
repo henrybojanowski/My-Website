@@ -4,7 +4,7 @@
 	<head>
 		<link type="text/css" rel="stylesheet" href="my_website_stylesheet.css"/>
 		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-		<?php include 'functions.php'; ?>
+		
 		<title> My website</title>
 	</head>
 
@@ -28,6 +28,19 @@
 					<li> Boston University First Year Student Outreach Program</li>
 				    <li> Harvard Summer School Volunteering</li>
 			    </ol>
+		</div>
+
+		<div class ='welcome'>
+			<?php include 'functions.php';
+				sayHello();
+
+
+
+			?>
+
+
+
+
 		</div>
 		
 		<div class="right">
@@ -59,7 +72,7 @@
 				<a href="https://github.com/henrybojanowski">
 					<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"></a>
 				<a href="https://app.joinhandshake.com/users/2425306">
-					<img src="http://www.careercenter.depaul.edu/_images/handshake.png"></a>
+					<img src="http://www.pointpark.edu/media/StudentLife/careerservices/handshake-glyph-200x200px.png"></a>
 				<a href = "https://www.linkedin.com/in/henry-bojanowski-7b7ba9102">
 					<img src="https://www.seeklogo.net/wp-content/uploads/2016/06/linkedin-logo-vector-download.jpg"></a>
 
