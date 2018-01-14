@@ -1,11 +1,17 @@
 $(document).ready(function(){
 
-	$('.boring_or_fun').hide();
-	$('.boring_or_funny').hide();
+
+	
+	
+	
+
+	
 	$('.on_or_off').hide();
+	$('.hide').hide();
 
 	//CS 111 stuff begins 
-	$('.CS-111-button').mouseenter(function(){
+	$('.CS-111-button').mouseenter(function()
+	{
 		$(this).addClass('bold');
 	});
 	$('.CS-111-button').mouseleave(function(){
@@ -13,7 +19,7 @@ $(document).ready(function(){
 	});
 
 	$('.CS-111-button').click(function(){
-		$('.boring_or_fun').show();
+		$('#cs111').show();
 	});
 
 	//CS 111 stuff ends 
@@ -28,11 +34,26 @@ $(document).ready(function(){
 	});
 
 	$('.CS-112-button').click(function(){
-		$('.boring_or_funny').show();
+		$('#cs112').show();
 	});
 	
 
 	//CS-112 button stuff ends
+
+	//EC-327 button stuff begins 
+
+	$('.EC-327-button').mouseenter(function(){
+		$(this).addClass('bold');
+	});
+	$('.EC-327-button').mouseleave(function(){
+		$(this).removeClass('bold');
+	});
+
+	$('.EC-327-button').click(function(){
+		$('#ec327').show();
+	});
+	
+	//EC 327 button stuff ends
 
 	$('h1').hover(function(){
 		$(this).addClass('blue');
@@ -48,7 +69,7 @@ $(document).ready(function(){
 	});
 
 	$('.expand').click(function(){
-		$('.on_or_off').show();
+		$("#1").show();
 	});
 
 	

@@ -2,9 +2,14 @@
 <html>
 
 	<head>
-		<link type="text/css" rel="stylesheet" href="my_website_stylesheet.css"/>
-		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+		<link type="text/css" rel="stylesheet" href="my_website_stylesheet.css"/> <!-- This is the CSS link -->
 		
+		<script
+  			src="https://code.jquery.com/jquery-3.2.1.min.js"
+  			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  			crossorigin="anonymous"></script>  <!-- This is the jQuery link -->
+
+		<script src="myWebsite.js"></script> <!-- This is the javascript link -->
 		<title> My website</title>
 	</head>
 
@@ -46,22 +51,31 @@
 		<div class="right">
 			<h3>My Schools</h3>
 				<ol>
-					<li>Boston University studying Computer Science</li>
+					<li>Boston University studying Computer Engineering</li>
+					<li>Harvard University: Summer Program</li>
+					<li>University at Buffalo:Summer Program</li>
 					<li> Lancaster Central High School</li>
 				</ol>
 			<h3>Relevant Coursework</h3>
 				<ol>
-					<li class ='CS-111-button'>CS 111: Intro to Computer Science I </li>
-						<ul class ='boring_or_fun'>
+					<li class ="CS-111-button">CS 111: Intro to Computer Science I </li>
+						<ul class ="hide" id='cs111'>
 							<li>Primarily used Python programmimg language</li>
 							<li>Inner workings of a computer including CPU storage, assembly language, minterm expansions and binary</li>
 						
 						</ul>
-					<li class='CS-112-button'>CS 112: Intro to Computer Science II</li>
-						<ul class ='boring_or_funny'>
+					<li class="CS-112-button">CS 112: Intro to Computer Science II</li>
+						<ul class='hide' id='cs112'>
 							<li>Used java programming language </li>
 							<li>Binary and ternary search trees</li>
 							<li>Recursion, Linked Lists and object oriented programming in Java</li>
+						</ul>
+					<li class="EC-327-button">EC 327: Software Engineering </li>
+						<ul class='hide' id='ec327'>
+							<li>Learned C/C++11</li>
+							<li>Learned the standard template library,linked lists,pointers, static/dynamic casting</li>
+							<li>Created android app, see github</li>
+							<li>Created Space Race Game in C++, see github</li>
 						</ul>
 				</ol>
 			
@@ -85,7 +99,7 @@
 					<li>Studying full-time at Boston University[3.00 gpa]</li>
 
 					<li class='expand'>Experience in the following programmimg languages:</li>
-						<ul class='on_or_off'>
+						<ul class='on_or_off' id = '1'>
 							<li>Python</li>
 							<li>Java</li>
 							<li>C/C++11
@@ -100,8 +114,9 @@
 				</ul>
 
 		</div>
-	<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
-	<script src="myWebsite.js"></script>
+	
+
+	
 	
 	</body>
 </html>
