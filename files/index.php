@@ -22,9 +22,8 @@
 			
 			<h3>My Jobs</h3>
 			    <ol>
-			        <li>BU IT Help Center</li>
-			        <li> White Rabbit Frozen Yogurt
-			        <li> Panera Bread </li>
+			    	<li>SQL Programmer: DGE Development</li>
+			        <li>BU IT Help Center: Service Desk Programmer</li>
 			        <li> Metro Newspaper Deliverer</li>
 			        
 			    </ol>
