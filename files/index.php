@@ -20,11 +20,11 @@
 		
 		<div class="left">
 			
-			<h3>My Jobs</h3>
+			<h3>Experience</h3>
 			    <ol>
 			    	<li>SQL Programmer: DGE Development</li>
 			        <li>BU IT Help Center: Service Desk Programmer</li>
-			        <li> Metro Newspaper Deliverer</li>
+			        
 			        
 			    </ol>
 			<h3> Volunteer Work</h3>
@@ -41,6 +41,8 @@
 
 
 			?>
+
+			<a href="http://docs.henrybojanowski.com">See Documents</a>
 
 
 
@@ -109,7 +111,7 @@
 							<li>PHP and SQL</li>
 						</ul>
 					<li>Please take a look at my social links for programming projects I've done and more details on job experience </li>
-					<li>My full resume is available on my handshake and linkedIN </li>
+					<li>My full resume is available on my handshake and linkedIn </li>
 				</ul>
 
 		</div>
