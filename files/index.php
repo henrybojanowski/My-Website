@@ -22,9 +22,9 @@
 			
 			<h3>Experience</h3>
 			    <ol>
-			    	<li>SQL Programmer: DGE Development</li>
+	
 			        <li>BU IT Help Center: Service Desk Programmer</li>
-			        
+			        <li>Freelance Software Engineer</li>
 			        
 			    </ol>
 			<h3> Volunteer Work</h3>
